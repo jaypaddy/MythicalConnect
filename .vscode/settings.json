@@ -1,0 +1,7 @@
+{
+    "azureFunctions.deploySubpath": "MythicalEventHub2Cosmos/target/azure-functions/mythicaleventhub2cosmos-20200518154749350",
+    "azureFunctions.projectLanguage": "Java",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "package"
+}

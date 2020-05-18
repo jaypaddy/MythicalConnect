@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "func",
+			"command": "host start",
+			"problemMatcher": "$func-watch",
+			"isBackground": true,
+			"options": {
+				"cwd": "${workspaceFolder}/MythicalEventHub2Cosmos/target/azure-functions/mythicaleventhub2cosmos-20200518154749350"
+			},
+			"dependsOn": "package"
+		},
+		{
+			"label": "package",
+			"command": "mvn clean package",
+			"type": "shell",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "${workspaceFolder}/MythicalEventHub2Cosmos"
+			}
+		}
+	]
+}
