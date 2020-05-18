@@ -1,8 +1,8 @@
 {
-    "azureFunctions.deploySubpath": "MythicalTimer2Cosmos/target/azure-functions/mythicaltimer2cosmos-20200518160748204",
+    "azureFunctions.deploySubpath": "target/azure-functions/mythicalcosmos2eventhub-20200518154635819",
     "azureFunctions.projectLanguage": "Java",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
     "azureFunctions.preDeployTask": "package",
-    "azureFunctions.projectSubpath": "MythicalTimer2Cosmos"
+    "azureFunctions.templateFilter": "All"
 }
